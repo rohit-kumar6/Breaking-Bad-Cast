@@ -1,68 +1,138 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Breaking Bad Cast
 
-## Available Scripts
+React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show
 
-In the project directory, you can run:
+# Usage
 
-### `npm start`
+```
+# Install dependencies
+npm install
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+# Run app
+npm start
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+# Build app
+npm run build
+```
 
-### `npm test`
+# Learning
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+# Install npm
+brew install npm
+```
 
-### `npm run build`
+```
+# Install npx
+npm install -g npx
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+# Create React App using npx [npx will not install React in globally but it will install in specific folder (folder name should be in local case and not contain react keyword)]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+npm create-react-app .
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+# Install axios [using axios, http can also be used]
+npm i axios
+```
 
-### `npm run eject`
+```
+# Hooks
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+useState and useEffect
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+display: 'block' - starts on a new line and takes up the full width available
+margin: 'auto'
+display: flex;
+display: none;
+display: inline;
+display: inline-block;
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Chrome React Developer tool
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+# React Developer Tools Extension
 
-### Code Splitting
+Thiw will help to get all the componets and data of componets in App.js file.
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Vs code 
 
-### Analyzing the Bundle Size
+```
+# Use ES7 React/Redux/GraphQL/React-Native snippets Vscode extension
+It help to create component template in easy way.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+using rafc, rafce, rafcp
+```
 
-### Making a Progressive Web App
+```
+# Shortcut to format code in Vscode
+???
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
+# Edit at multiple place in Vscode
+???
+```
 
-### Advanced Configuration
+To Preview readme.md file in vs code [Blog](https://code.visualstudio.com/docs/languages/markdown)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+# Files 
 
-### Deployment
+```
+# Robots.txt 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This file is to prevent the crawling and indexing of certain parts of your site by web crawlers and spiders run by sites like Yahoo and Google. By telling these "robots" where not to go on your site, you save bandwidth and server resources.
+```
 
-### `npm run build` fails to minify
+```
+# package.json 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.
+
+Use npm install, it will install all the dependencies
+```
+
+
+```
+# package.json 
+
+This file holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.
+
+Use npm install, it will install all the dependencies
+```
+
+```
+# package-lock.json
+
+If you’re using npm ^5.x.x, by default a package-lock.json will be generated for you.
+You SHOULD commit your package-lock to source control
+
+It stores an exact, versioned dependency tree rather than using starred versioning like package.json itself (e.g. 1.0.*). This means you can guarantee the dependencies for other developers or prod releases, etc. It also has a mechanism to lock the tree but generally will regenerate if package.json/node_modules changes or if we run npm install 
+
+Describe a single representation of a dependency tree such that teammates, deployments, and continuous integration are guaranteed to install exactly the same dependencies.
+
+Provide a facility for users to "time-travel" to previous states of node_modules without having to commit the directory itself.
+To facilitate greater visibility of tree changes through readable source control diffs.
+```
+
+# Improvements
+
+```
+1. Add paggination
+2. Improve the search on each key stroke
+3. How to get the value of an input field using ReactJS?
+```
