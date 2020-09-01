@@ -2,6 +2,8 @@
 
 React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show
 
+![alt text](./src/img/bg.jpg)
+
 # Usage
 
 ```
