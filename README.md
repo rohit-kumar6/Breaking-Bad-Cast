@@ -2,7 +2,11 @@
 
 React project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show
 
+<<<<<<< HEAD
 ![alt text](./src/img/bg.jpg)
+=======
+<img width="1438" alt="Screenshot 2020-08-16 at 6 57 56 PM" src="https://user-images.githubusercontent.com/22203782/90335399-6bb00980-dff2-11ea-9df9-4a7491089d25.png">
+>>>>>>> 9d6494fdbc581fbefbcedc52133cd5f363eb01e2
 
 # Usage
 
